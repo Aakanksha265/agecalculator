@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ffffff;
+    background-color: #e5f10a;
 }
 .container{
     width: 40%;
@@ -18,12 +18,12 @@ body{
     padding: 50px 30px;
 }
 .container *{
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Poppins",sans-serif;
     border: none;
     outline: none;
 }
 .inputs-wrapper{
-    background-color: #ffffff;
+    background-color: #080808;
     padding: 30px 25px;
     border-radius: 8px;
     box-shadow: 0 15px 20px rgba(0,0,0,0.3);
@@ -32,7 +32,7 @@ body{
 input,
 button{
     height: 50px;
-    background-color: #000000;
+    background-color: #ffffff;
     color: #080808;
     font-weight: 500;
     border-radius: 5px;
@@ -54,9 +54,9 @@ button{
 .outputs-wrapper div{
     height: 100px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #080808;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     display: grid;
     place-items: center;
     padding: 20px 0;
@@ -69,6 +69,6 @@ span{
 
 p{
     font-size: 14px;
-    color: #000000;
+    color: #fbfbfb;
     font-weight: 400;
 }
