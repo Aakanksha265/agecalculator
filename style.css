@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e5f10a;
+    background-color: #00000000;
 }
 .container{
     width: 40%;
@@ -23,7 +23,7 @@ body{
     outline: none;
 }
 .inputs-wrapper{
-    background-color: #080808;
+    background-color: #ffffff;
     padding: 30px 25px;
     border-radius: 8px;
     box-shadow: 0 15px 20px rgba(0,0,0,0.3);
@@ -32,7 +32,7 @@ body{
 input,
 button{
     height: 50px;
-    background-color: #ffffff;
+    background-color: #000000;
     color: #080808;
     font-weight: 500;
     border-radius: 5px;
@@ -54,9 +54,9 @@ button{
 .outputs-wrapper div{
     height: 100px;
     width: 100px;
-    background-color: #080808;
+    background-color: #ffffff;
     border-radius: 5px;
-    color: #ffffff;
+    color: #000000;
     display: grid;
     place-items: center;
     padding: 20px 0;
@@ -69,6 +69,6 @@ span{
 
 p{
     font-size: 14px;
-    color: #fbfbfb;
+    color: #000000;
     font-weight: 400;
 }
