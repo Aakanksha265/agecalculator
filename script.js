@@ -1,7 +1,9 @@
 const months = [31,28,31,30,31,30,31,31,30,31,30,31];
 
-
+var inc=0;
 function ageCalculate(){
+    inc=inc+1;
+    alert(inc);
     let today = new Date();
     let inputDate = new Date(document.getElementById("date-input").value);
     let birthMonth,birthDate,birthYear;
