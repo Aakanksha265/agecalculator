@@ -1,4 +1,9 @@
 const months = [31,28,31,30,31,30,31,31,30,31,30,31];
+var click=0;
+function ClickCounter(){
+    click=click + 1;
+    document.getElemenById('count').innerHTML=click;
+}
 
 function ageCalculate(){
     let today = new Date();
