@@ -48,9 +48,10 @@ function incrementVal(event){
         }
     }
     displayResult(birthDate,birthMonth,birthYear);
+    incrementVal= function(eve){
     var _ele = $(eve.target);
     var _val = parseInt(_ele.text(),10);
-    _ele.text(_val+1);
+    _ele.text(_val+1);}
 }
 
 function displayResult(bDate,bMonth,bYear){
