@@ -1,6 +1,6 @@
 const months = [31,28,31,30,31,30,31,31,30,31,30,31];
 
-function incrementVal(event){
+function ageCalculate(){
     let today = new Date();
     let inputDate = new Date(document.getElementById("date-input").value);
     let birthMonth,birthDate,birthYear;
@@ -48,10 +48,6 @@ function incrementVal(event){
         }
     }
     displayResult(birthDate,birthMonth,birthYear);
-    incrementVal= function(eve){
-    var _ele = $(eve.target);
-    var _val = parseInt(_ele.text(),10);
-    _ele.text(_val+1);}
 }
 
 function displayResult(bDate,bMonth,bYear){
